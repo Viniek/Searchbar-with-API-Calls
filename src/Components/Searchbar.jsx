@@ -7,7 +7,7 @@ function Searchbar() {
   return (
   <>
  <div className='search'>
- <CiSearch />
+ <CiSearch className='searchicon'/>
   <input type="text" placeholder='Type to search ...'/>
  </div>
  
